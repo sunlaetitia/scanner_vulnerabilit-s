@@ -1,1 +1,1 @@
-# scanner_vulnerabilit-s
+# scanner_vulnerabilites
