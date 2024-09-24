@@ -12,13 +12,18 @@ Ce projet est un scanner de vulnérabilités Web capable de détecter des probl�
 
    ```bash
    git clone https://github.com/sunlaetitia/scanner_vulnerabilites.git
+   
+2. **Naviguez dans le dossier du projet** : 
+ ```bash
+ cd scanner_vulnerabilites
 
-Copier le code
-cd scanner_vulnerabilites
+3. **Installez les dépendances** :
+ Assurez-vous d'avoir requests et BeautifulSoup installés. Vous pouvez le faire en exécutant :
+ ```bash
+ pip install requests beautifulsoup4
 
-Installez les dépendances : Assurez-vous d'avoir requests et BeautifulSoup installés. Vous pouvez le faire en exécutant :
-pip install requests beautifulsoup4
-
-Exécutez le scanner : Pour lancer le scanner, utilisez la commande :
-python3 scanner_vulnerabilites.py <url>
+4. **Exécutez le scanner** :
+Pour lancer le scanner, utilisez la commande :
+ ```bash
+ python3 scanner_vulnerabilites.py <url>
 Remplacez <url> par l'URL que vous souhaitez analyser.
